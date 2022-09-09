@@ -153,6 +153,7 @@ RUN set -eux; \
 # https://github.com/docker-library/php/pull/1259
 		--enable-phpdbg \
 		--enable-phpdbg-readline \
+		--enable-debug \
 		\
 # in PHP 7.4+, the pecl/pear installers are officially deprecated (requiring an explicit "--with-pear")
 		--with-pear \
